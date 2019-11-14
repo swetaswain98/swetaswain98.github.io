@@ -1,0 +1,32 @@
+body {
+    background:rgb(192, 255, 231);
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    #doll{
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+    }
+    .nav_container{
+        width: 100%;
+        height: 48px;
+        display: flex;
+        background-color:#0e535f;
+        flex-direction: row;
+    }
+    .nav_link_container{
+        padding: 8px;
+        margin-right:12px;
+    }
+    .nav_link{
+        display:block;
+        width: 100px;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        text-decoration: none;
+        color: #db0e0e;
+    }
